@@ -1,0 +1,58 @@
+# ─── Environment & Secrets ────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─── Python & Caches ──────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# ─── Virtual Environments ─────────────────────────────
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ─── Database & Vector Storage ────────────────────────
+chroma_db/
+*.sqlite
+*.sqlite3
+
+# ─── Uploaded Documents ───────────────────────────────
+# Keep folder tracked with .gitkeep, ignore local uploaded documents
+uploaded_documents/*
+!uploaded_documents/.gitkeep
+
+# ─── Personal Drafts & College Templates ─────────────
+Project_Brief.docx
+Project_Synopsis_Template.docx
+Data_generation_promt
+
+# ─── IDE & Editors ────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ─── Jupyter Notebooks ────────────────────────────────
+.ipynb_checkpoints/
+
+# ─── Operating System ─────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

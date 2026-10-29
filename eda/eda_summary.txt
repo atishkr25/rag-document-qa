@@ -1,0 +1,38 @@
+
+EDA Summary Report — RAG Document Q&A System
+═══════════════════════════════════════════════
+
+Dataset Overview:
+  • Total records: 500
+  • Total columns: 7
+  • Columns: doc_id, doc_type, chunk_id, word_count, retrieval_score, query_type, answer_quality_score
+
+Numeric Summary:
+  • word_count — Min: 50, Max: 499, Mean: 268.9, Std: 134.3
+  • retrieval_score — Min: 0.5008, Max: 0.9989, Mean: 0.7466
+  • answer_quality_score — Min: 0.6, Max: 1.0, Mean: 0.8029
+
+Categorical Summary:
+  • doc_type values: TXT, HTML, Markdown, Word, PDF
+  • query_type values: analytical, factual, comparative, procedural, summarization
+  • Unique documents: 50
+  • Unique chunks: 500
+
+Data Quality:
+  • Missing values: 0
+  • Duplicate rows: 0
+  • Outliers detected: 0 total across 0 columns
+
+Visualizations Generated:
+  1. 01_doc_type_distribution_and_retrieval.png
+  2. 02_query_type_analysis.png
+  3. 03_score_analysis_and_correlation.png
+  4. 04_word_count_and_document_chunks.png
+  5. 05_performance_quadrant.png
+
+Key Observations:
+  1. The dataset represents metadata for a RAG system with 50 unique documents.
+  2. Document types are distributed across 5 formats: TXT, HTML, Markdown, Word, PDF.
+  3. Retrieval scores range from 0.5008 to 0.9989, suggesting varied retrieval quality.
+  4. Answer quality scores show a mean of 0.8029, indicating generally good quality.
+  5. Query types are relatively evenly distributed across categories.

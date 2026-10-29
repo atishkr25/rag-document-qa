@@ -1,0 +1,8 @@
+column_name,data_type,sample_value_1,sample_value_2,sample_value_3,nullable,description_fill_in
+doc_id,object/numeric,DOC002,DOC034,DOC013,No,doc_id — [Learner to fill in description]
+doc_type,object/numeric,TXT,TXT,HTML,No,doc_type — [Learner to fill in description]
+chunk_id,object/numeric,CHK00001,CHK00002,CHK00003,No,chunk_id — [Learner to fill in description]
+word_count,object/numeric,457,302,52,No,word_count — [Learner to fill in description]
+retrieval_score,object/numeric,0.5962,0.7397,0.7735,No,retrieval_score — [Learner to fill in description]
+query_type,object/numeric,analytical,factual,comparative,No,query_type — [Learner to fill in description]
+answer_quality_score,object/numeric,0.942,0.976,0.66,No,answer_quality_score — [Learner to fill in description]

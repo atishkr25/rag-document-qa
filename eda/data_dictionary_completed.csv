@@ -1,0 +1,8 @@
+column_name,data_type,sample_value_1,sample_value_2,sample_value_3,nullable,description
+doc_id,str,DOC002,DOC034,DOC013,No,"Unique identifier for each source document in the corpus (e.g., DOC001, DOC002). Multiple chunks can share the same doc_id."
+doc_type,str,TXT,HTML,Markdown,No,"Format/type of the source document from which the chunk was extracted. Values include: TXT (plain text), PDF (Portable Document Format), HTML (web page), Word (Microsoft Word), Markdown (Markdown format)."
+chunk_id,str,CHK00001,CHK00002,CHK00003,No,"Unique identifier for each text chunk created during document splitting (e.g., CHK00001). Each chunk_id maps to one specific text segment."
+word_count,int64,457,302,52,No,"Number of words in the text chunk. Reflects chunk size after splitting. Range: 50–499, Mean: 269."
+retrieval_score,float64,0.5962,0.7397,0.7735,No,Cosine similarity score between the query embedding and the chunk embedding during retrieval. Range: 0.0 (no similarity) to 1.0 (identical). Mean: 0.7466.
+query_type,str,analytical,factual,comparative,No,"Category of the user query that retrieved this chunk. Values: factual (fact lookup), analytical (analysis/reasoning), comparative (comparison), procedural (how-to), summarization (summary request)."
+answer_quality_score,float64,0.942,0.976,0.66,No,Quality score of the generated answer using the retrieved chunk as context. Range: 0.0 (poor) to 1.0 (excellent). Mean: 0.8029.
